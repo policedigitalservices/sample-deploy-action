@@ -1,0 +1,26 @@
+$background-color: cornflowerblue;
+$container-background: #fff;
+$container-width: 960px;
+
+*, *::before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: $background-color;
+    font-size: 1.6rem;
+    font-family: arial;
+}
+
+.container {
+    max-width: $container-width;
+    background-color: $container-background;
+    margin: 0 auto;
+    padding: 20px;
+}
